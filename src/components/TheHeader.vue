@@ -33,8 +33,7 @@
     }
 
     .nav > li{
-        font-size: 3rem;
-        
+        font-size: 3rem;  
     }
 
     .home_logo{
