@@ -2,10 +2,10 @@
     <h1>Portfolio de Jérémy Aboudan</h1>
     <div class="menu">
         <ul class="nav">
-            <li><a href="../../index.html"><img class="home_logo"  src="../assets/img/home.png" alt="drapeau corse"></a></li>
-            <li><a href="../../index.html#presentation">Présentation</a></li>
-            <li><a href="../../index.html#creation">Créations</a></li>
-            <li><a href="../../index.html#contact">Contact</a></li>
+            <li><a href=""><img class="home_logo"  src="../assets/img/home.png" alt="drapeau corse"></a></li>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#creation">Créations</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 </template>
