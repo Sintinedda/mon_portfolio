@@ -46,6 +46,6 @@
     }
 
     .nav li a:hover {
-    background-color: hsla(59, 100%, 37%, 0.2);
+    filter: drop-shadow(12px 12px 2px gold);
   }
 </style>

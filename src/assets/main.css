@@ -86,3 +86,7 @@ textarea::-webkit-scrollbar-thumb{
   border-color: gold transparent gold gold;
 }
 
+.menu-item:hover h1{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
