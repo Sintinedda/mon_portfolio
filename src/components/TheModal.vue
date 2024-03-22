@@ -23,7 +23,7 @@ onClickOutside(
 <template>
     <section id="modal">
         <div @click="modal1 = true">
-            <div id="shadow-img">
+            <div class="shadow-img">
                 <img src="../assets/img/logoCv.png" alt="Logo de curriculum vitae">
                 <h3>Mon curriculum vitae</h3>
             </div>
@@ -47,7 +47,7 @@ onClickOutside(
         </div>
         
         <div @click="modal2 = true">
-            <div id="shadow-img">
+            <div class="shadow-img">
                 <img src="../assets/img/logoCahierDesCharges.png" alt="Logo de cahier des charges">
                 <h3>Mon cahier des charges</h3>
             </div>
@@ -68,7 +68,7 @@ onClickOutside(
         </div>
         
         <div @click="modal3 = true">
-            <div id="shadow-img">
+            <div class="shadow-img">
                 <img src="../assets/img/logoEspaceCommentaire.png" alt="Logo pour un espace commentaire">
                 <h3>Mon espace commentaire dynamique</h3>
             </div>
@@ -77,7 +77,7 @@ onClickOutside(
             <div ref="modalRef" class="modal">
                 <button @click="modal3 = false"></button>
                 <h4>Espace commentaire Dynamique</h4>
-                <p class="date">Créé le <date datetime="2024-02-18">18 février 2024</date>.</p>
+                <p class="date">Créé le <time datetime="2024-02-18">18 février 2024</time>.</p>
                 <p class="assets">HTML5, CSS3 et Javascript utilisés. Codé avec Visual Studio Code et versionné avec Git et GitHub.</p>
                 <div class="modal-logo">
                     <img src="../assets/img/logoHtml5.png" alt="Logo HTML5">
@@ -93,7 +93,7 @@ onClickOutside(
         </div>
         
         <div @click="modal4 = true">
-            <div id="shadow-img">
+            <div class="shadow-img">
                 <img src="../assets/img/logoD&D.jpg" alt="Logo de Donjons et Dragons">
                 <h3>Mon site web</h3>
             </div>
@@ -102,7 +102,7 @@ onClickOutside(
                 <div ref="modalRef" class="modal">
                     <button @click="modal4 = false"></button>
                     <h4>Site web pour Donjons & Dragons</h4>
-                    <p class="date">Créé le <date datetime="2024-01-19">19 janvier 2024</date> et toujours en développement.</p>
+                    <p class="date">Créé le <time datetime="2024-01-19">19 janvier 2024</time> et toujours en développement.</p>
                     <p class="assets">HTML5, CSS3 et Javascript utilisés. Codé avec Visual Studio Code et versionné avec Git et GitHub.</p>
                     <div class="modal-logo">
                     <img src="../assets/img/logoHtml5.png" alt="Logo HTML5">

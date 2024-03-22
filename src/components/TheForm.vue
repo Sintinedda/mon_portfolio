@@ -36,23 +36,23 @@
 
 <template>
     <form @submit.prevent="sendEmail">
-        <section class="name">
+        <div class="name">
             <div class="first-name">
-                <label for="first-name">Entrez votre prénom : </label>
-                <input id= field type="text" name="first_name" v-model="first_name" required/>
+                <label for="first_name">Entrez votre prénom : </label>
+                <input id="first_name" type="text" name="first_name" v-model="first_name" required/>
             </div>
             <div class="last-name">
-                <label for="last-name">Ici votre nom : </label>
-                <input  type="text" name="last_name" v-model="last_name" required/>
+                <label for="last_name">Ici votre nom : </label>
+                <input id="last_name" type="text" name="last_name" v-model="last_name" required/>
             </div>
-        </section>
+        </div>
         <div class="object">
             <label for="object">L'objet de votre message : </label>
-            <input  type="text" name="object" v-model="object" required/>
+            <input id="object" type="text" name="object" v-model="object" required/>
         </div>
         <div class="message">
             <label for="message">Et enfin votre message : </label>
-            <textarea  name="message" v-model="message" required></textarea>
+            <textarea id="message" name="message" v-model="message" required></textarea>
         </div>
         <input id="submit" type="submit" value="Envoyer">
     </form>

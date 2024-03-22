@@ -4,13 +4,13 @@
     justify-content: center;
 }
 
-#shadow-img img{
+.shadow-img img{
     width: 200px;
     border-radius: 5%;
     cursor: pointer;
 }
 
-#shadow-img:hover img{
+.shadow-img:hover img{
     filter: drop-shadow(12px 12px 5px gold);
 }
 
