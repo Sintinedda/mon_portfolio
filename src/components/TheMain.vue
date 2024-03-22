@@ -1,5 +1,6 @@
 <script setup>
     import TheModal from './TheModal.vue'
+    import TheForm from './TheForm.vue'
 </script>
 
 <template>
@@ -10,30 +11,11 @@
     </div>
     <div id="creation" class="menu-item">
         <h1>Mes créations.</h1>
-        <div id="modal"><TheModal /></div>
+        <div><TheModal /></div>
     </div>
     <div id="contact" class="menu-item">
         <h1>Me contacter.</h1>
-        <form action="">
-            <section class="name">
-                <div class="first-name">
-                    <label for="first-name">Entrez votre prénom : </label>
-                    <input type="text" name="first-name" id="first-name"/>
-                </div>
-                <div class="last-name">
-                    <label for="last-name">Ici votre nom : </label>
-                    <input type="text" name="last-name" id="last-name"/>
-                </div>
-            </section>
-            <div class="object">
-                <label for="object">L'objet de votre message : </label>
-                <input type="text" name="object" id="object"/>
-            </div>
-            <div class="message">
-                <label for="message">Et enfin votre message : </label>
-                <textarea name="message" id="message"></textarea>
-            </div>
-        </form>
+        <div><TheForm /></div>
     </div>
 </template>
 
