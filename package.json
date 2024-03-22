@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@vueuse/core": "^10.9.0",
     "v-click-outside": "^3.2.0",
     "vue": "^3.4.15",
