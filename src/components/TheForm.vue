@@ -39,16 +39,16 @@
         <div class="name">
             <div class="first-name">
                 <label for="first_name">Entrez votre prénom : </label>
-                <input id="first_name" type="text" name="first_name" v-model="first_name" required/>
+                <input id="first_name" type="text" name="first_name" v-model="first_name" required>
             </div>
             <div class="last-name">
                 <label for="last_name">Ici votre nom : </label>
-                <input id="last_name" type="text" name="last_name" v-model="last_name" required/>
+                <input id="last_name" type="text" name="last_name" v-model="last_name" required>
             </div>
         </div>
         <div class="object">
             <label for="object">L'objet de votre message : </label>
-            <input id="object" type="text" name="object" v-model="object" required/>
+            <input id="object" type="text" name="object" v-model="object" required>
         </div>
         <div class="message">
             <label for="message">Et enfin votre message : </label>
