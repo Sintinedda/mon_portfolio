@@ -27,3 +27,18 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Access to project
+
+Vous devez avoir NodeJS et VueJS installé.
+Ouvrez le projet avec VSCode.
+Ouvrez le terminal.
+Taper npm run dev .
+Ctrl + click sur l'adresse de Local.
+
+### Prérequis du projet
+
+Utilisation de VueJS, HTML5, CSS3 et JS pour le code.
+Utilisation de Git et GitHub pour le versioning.
+Monopage avec un header, une page d'accueil, une modale dynamique, un footer et une page 404.
+
